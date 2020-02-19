@@ -1,3 +1,5 @@
 status = [
   "Test"
 ]
+
+use_squash_merge = true
