@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Check if hello.txt present
-      run: test -f hello.txt
+      run: \
+        sleep 300
+        test -f hello.txt
